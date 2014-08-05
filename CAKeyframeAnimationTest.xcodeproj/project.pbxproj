@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA1B3CE419906D6A00302741 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1B3CE319906D6A00302741 /* Foundation.framework */; };
+		FA1B3CE619906D6A00302741 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1B3CE519906D6A00302741 /* CoreGraphics.framework */; };
+		FA1B3CE819906D6A00302741 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1B3CE719906D6A00302741 /* UIKit.framework */; };
+		FA1B3CEE19906D6A00302741 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA1B3CEC19906D6A00302741 /* InfoPlist.strings */; };
+		FA1B3CF019906D6A00302741 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1B3CEF19906D6A00302741 /* main.m */; };
+		FA1B3CF419906D6A00302741 /* KFTestAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1B3CF319906D6A00302741 /* KFTestAppDelegate.m */; };
+		FA1B3CF719906D6A00302741 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1B3CF519906D6A00302741 /* Main_iPhone.storyboard */; };
+		FA1B3CFA19906D6A00302741 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA1B3CF819906D6A00302741 /* Main_iPad.storyboard */; };
+		FA1B3CFD19906D6A00302741 /* KFTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1B3CFC19906D6A00302741 /* KFTestViewController.m */; };
+		FA1B3CFF19906D6A00302741 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA1B3CFE19906D6A00302741 /* Images.xcassets */; };
+		FA1B3D0619906D6A00302741 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1B3D0519906D6A00302741 /* XCTest.framework */; };
+		FA1B3D0719906D6A00302741 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1B3CE319906D6A00302741 /* Foundation.framework */; };
+		FA1B3D0819906D6A00302741 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA1B3CE719906D6A00302741 /* UIKit.framework */; };
+		FA1B3D1019906D6A00302741 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FA1B3D0E19906D6A00302741 /* InfoPlist.strings */; };
+		FA1B3D1219906D6A00302741 /* CAKeyframeAnimationTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1B3D1119906D6A00302741 /* CAKeyframeAnimationTestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA1B3D0919906D6A00302741 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FA1B3CD819906D6A00302741 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA1B3CDF19906D6A00302741;
+			remoteInfo = CAKeyframeAnimationTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FA1B3CE019906D6A00302741 /* CAKeyframeAnimationTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CAKeyframeAnimationTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1B3CE319906D6A00302741 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FA1B3CE519906D6A00302741 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FA1B3CE719906D6A00302741 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FA1B3CEB19906D6A00302741 /* CAKeyframeAnimationTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CAKeyframeAnimationTest-Info.plist"; sourceTree = "<group>"; };
+		FA1B3CED19906D6A00302741 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA1B3CEF19906D6A00302741 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FA1B3CF119906D6A00302741 /* CAKeyframeAnimationTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CAKeyframeAnimationTest-Prefix.pch"; sourceTree = "<group>"; };
+		FA1B3CF219906D6A00302741 /* KFTestAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFTestAppDelegate.h; sourceTree = "<group>"; };
+		FA1B3CF319906D6A00302741 /* KFTestAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFTestAppDelegate.m; sourceTree = "<group>"; };
+		FA1B3CF619906D6A00302741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		FA1B3CF919906D6A00302741 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		FA1B3CFB19906D6A00302741 /* KFTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFTestViewController.h; sourceTree = "<group>"; };
+		FA1B3CFC19906D6A00302741 /* KFTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFTestViewController.m; sourceTree = "<group>"; };
+		FA1B3CFE19906D6A00302741 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FA1B3D0419906D6A00302741 /* CAKeyframeAnimationTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CAKeyframeAnimationTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA1B3D0519906D6A00302741 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FA1B3D0D19906D6A00302741 /* CAKeyframeAnimationTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CAKeyframeAnimationTestTests-Info.plist"; sourceTree = "<group>"; };
+		FA1B3D0F19906D6A00302741 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FA1B3D1119906D6A00302741 /* CAKeyframeAnimationTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CAKeyframeAnimationTestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FA1B3CDD19906D6A00302741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1B3CE619906D6A00302741 /* CoreGraphics.framework in Frameworks */,
+				FA1B3CE819906D6A00302741 /* UIKit.framework in Frameworks */,
+				FA1B3CE419906D6A00302741 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1B3D0119906D6A00302741 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1B3D0619906D6A00302741 /* XCTest.framework in Frameworks */,
+				FA1B3D0819906D6A00302741 /* UIKit.framework in Frameworks */,
+				FA1B3D0719906D6A00302741 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA1B3CD719906D6A00302741 = {
+			isa = PBXGroup;
+			children = (
+				FA1B3CE919906D6A00302741 /* CAKeyframeAnimationTest */,
+				FA1B3D0B19906D6A00302741 /* CAKeyframeAnimationTestTests */,
+				FA1B3CE219906D6A00302741 /* Frameworks */,
+				FA1B3CE119906D6A00302741 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FA1B3CE119906D6A00302741 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FA1B3CE019906D6A00302741 /* CAKeyframeAnimationTest.app */,
+				FA1B3D0419906D6A00302741 /* CAKeyframeAnimationTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FA1B3CE219906D6A00302741 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA1B3CE319906D6A00302741 /* Foundation.framework */,
+				FA1B3CE519906D6A00302741 /* CoreGraphics.framework */,
+				FA1B3CE719906D6A00302741 /* UIKit.framework */,
+				FA1B3D0519906D6A00302741 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FA1B3CE919906D6A00302741 /* CAKeyframeAnimationTest */ = {
+			isa = PBXGroup;
+			children = (
+				FA1B3CF219906D6A00302741 /* KFTestAppDelegate.h */,
+				FA1B3CF319906D6A00302741 /* KFTestAppDelegate.m */,
+				FA1B3CF519906D6A00302741 /* Main_iPhone.storyboard */,
+				FA1B3CF819906D6A00302741 /* Main_iPad.storyboard */,
+				FA1B3CFB19906D6A00302741 /* KFTestViewController.h */,
+				FA1B3CFC19906D6A00302741 /* KFTestViewController.m */,
+				FA1B3CFE19906D6A00302741 /* Images.xcassets */,
+				FA1B3CEA19906D6A00302741 /* Supporting Files */,
+			);
+			path = CAKeyframeAnimationTest;
+			sourceTree = "<group>";
+		};
+		FA1B3CEA19906D6A00302741 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA1B3CEB19906D6A00302741 /* CAKeyframeAnimationTest-Info.plist */,
+				FA1B3CEC19906D6A00302741 /* InfoPlist.strings */,
+				FA1B3CEF19906D6A00302741 /* main.m */,
+				FA1B3CF119906D6A00302741 /* CAKeyframeAnimationTest-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA1B3D0B19906D6A00302741 /* CAKeyframeAnimationTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FA1B3D1119906D6A00302741 /* CAKeyframeAnimationTestTests.m */,
+				FA1B3D0C19906D6A00302741 /* Supporting Files */,
+			);
+			path = CAKeyframeAnimationTestTests;
+			sourceTree = "<group>";
+		};
+		FA1B3D0C19906D6A00302741 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FA1B3D0D19906D6A00302741 /* CAKeyframeAnimationTestTests-Info.plist */,
+				FA1B3D0E19906D6A00302741 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FA1B3CDF19906D6A00302741 /* CAKeyframeAnimationTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1B3D1519906D6A00302741 /* Build configuration list for PBXNativeTarget "CAKeyframeAnimationTest" */;
+			buildPhases = (
+				FA1B3CDC19906D6A00302741 /* Sources */,
+				FA1B3CDD19906D6A00302741 /* Frameworks */,
+				FA1B3CDE19906D6A00302741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CAKeyframeAnimationTest;
+			productName = CAKeyframeAnimationTest;
+			productReference = FA1B3CE019906D6A00302741 /* CAKeyframeAnimationTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FA1B3D0319906D6A00302741 /* CAKeyframeAnimationTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FA1B3D1819906D6A00302741 /* Build configuration list for PBXNativeTarget "CAKeyframeAnimationTestTests" */;
+			buildPhases = (
+				FA1B3D0019906D6A00302741 /* Sources */,
+				FA1B3D0119906D6A00302741 /* Frameworks */,
+				FA1B3D0219906D6A00302741 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA1B3D0A19906D6A00302741 /* PBXTargetDependency */,
+			);
+			name = CAKeyframeAnimationTestTests;
+			productName = CAKeyframeAnimationTestTests;
+			productReference = FA1B3D0419906D6A00302741 /* CAKeyframeAnimationTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FA1B3CD819906D6A00302741 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KFTest;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = ajk;
+				TargetAttributes = {
+					FA1B3D0319906D6A00302741 = {
+						TestTargetID = FA1B3CDF19906D6A00302741;
+					};
+				};
+			};
+			buildConfigurationList = FA1B3CDB19906D6A00302741 /* Build configuration list for PBXProject "CAKeyframeAnimationTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FA1B3CD719906D6A00302741;
+			productRefGroup = FA1B3CE119906D6A00302741 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FA1B3CDF19906D6A00302741 /* CAKeyframeAnimationTest */,
+				FA1B3D0319906D6A00302741 /* CAKeyframeAnimationTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FA1B3CDE19906D6A00302741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1B3CFA19906D6A00302741 /* Main_iPad.storyboard in Resources */,
+				FA1B3CFF19906D6A00302741 /* Images.xcassets in Resources */,
+				FA1B3CF719906D6A00302741 /* Main_iPhone.storyboard in Resources */,
+				FA1B3CEE19906D6A00302741 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1B3D0219906D6A00302741 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1B3D1019906D6A00302741 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FA1B3CDC19906D6A00302741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1B3CF019906D6A00302741 /* main.m in Sources */,
+				FA1B3CFD19906D6A00302741 /* KFTestViewController.m in Sources */,
+				FA1B3CF419906D6A00302741 /* KFTestAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA1B3D0019906D6A00302741 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1B3D1219906D6A00302741 /* CAKeyframeAnimationTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FA1B3D0A19906D6A00302741 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FA1B3CDF19906D6A00302741 /* CAKeyframeAnimationTest */;
+			targetProxy = FA1B3D0919906D6A00302741 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FA1B3CEC19906D6A00302741 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA1B3CED19906D6A00302741 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FA1B3CF519906D6A00302741 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA1B3CF619906D6A00302741 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		FA1B3CF819906D6A00302741 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA1B3CF919906D6A00302741 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		FA1B3D0E19906D6A00302741 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FA1B3D0F19906D6A00302741 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FA1B3D1319906D6A00302741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FA1B3D1419906D6A00302741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FA1B3D1619906D6A00302741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAKeyframeAnimationTest/CAKeyframeAnimationTest-Prefix.pch";
+				INFOPLIST_FILE = "CAKeyframeAnimationTest/CAKeyframeAnimationTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FA1B3D1719906D6A00302741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAKeyframeAnimationTest/CAKeyframeAnimationTest-Prefix.pch";
+				INFOPLIST_FILE = "CAKeyframeAnimationTest/CAKeyframeAnimationTest-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FA1B3D1919906D6A00302741 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CAKeyframeAnimationTest.app/CAKeyframeAnimationTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAKeyframeAnimationTest/CAKeyframeAnimationTest-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CAKeyframeAnimationTestTests/CAKeyframeAnimationTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FA1B3D1A19906D6A00302741 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/CAKeyframeAnimationTest.app/CAKeyframeAnimationTest";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CAKeyframeAnimationTest/CAKeyframeAnimationTest-Prefix.pch";
+				INFOPLIST_FILE = "CAKeyframeAnimationTestTests/CAKeyframeAnimationTestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FA1B3CDB19906D6A00302741 /* Build configuration list for PBXProject "CAKeyframeAnimationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1B3D1319906D6A00302741 /* Debug */,
+				FA1B3D1419906D6A00302741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FA1B3D1519906D6A00302741 /* Build configuration list for PBXNativeTarget "CAKeyframeAnimationTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1B3D1619906D6A00302741 /* Debug */,
+				FA1B3D1719906D6A00302741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FA1B3D1819906D6A00302741 /* Build configuration list for PBXNativeTarget "CAKeyframeAnimationTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FA1B3D1919906D6A00302741 /* Debug */,
+				FA1B3D1A19906D6A00302741 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FA1B3CD819906D6A00302741 /* Project object */;
+}
